@@ -2,6 +2,8 @@
 *
 body{
   background: #1f242d;
+  height: 100%;
+  overflow: hidden;
 }
 .header{
   position: fixed;
