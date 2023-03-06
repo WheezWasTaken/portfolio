@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: -webkit-linear-gradient(#3f3f3f, #232224);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #161616; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body{
+  background: #1f242d;
+  background-image: url('../Images/Scene.jpg');
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;
+  background-size: 100% 100vh;
+}
+p{
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+.Logo{
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.Wrapper{
+  height: fit-content;
+  width: 50vh;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: white;
+}
+.Template{
+  margin-top: 20px;
+  display: inline-block;
+}
+.img1{
+  width: 140px;
+}
+.img2{
+  width: 250px;
+}
+.p1 {
+  margin:0;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+.p2 {
+  margin:0;
+  text-align: center;
+  font-size: 22px;
+}
+.p3 {
+  margin:0;
+  text-align: center;
+  font-size: 15px;
+}
+.red-gradient{
+  background: -webkit-linear-gradient(#f54eef, #b524ef);
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.socials{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 50px;
+  width: fit-content;
+}
+.socials a{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.socials a img{
+  border: none;
+  transition: margin-top 0.15s;
+}
+.socials a img:hover{
+  margin-top: -7px;
+}
+.instagram img{
+  border-radius: 50%;
+  background: transparent;
+}
+.youtube img {
+  background: transparent;
+  border-radius: 50%;
+}
+.twitter img {
+  background: transparent;
+  border-radius: 50%;
+}
+.social-icon{
+  height: 28px;
+  width: 28px;
+}
+button{
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-linear-gradient(#f54eef, #b524ef);
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  border:solid;
+  color: white;
+
+  border-width: 1.7px;
+  border-radius: 4px;
+  border-color: #ffffff;
+
+  width: 150px;
+  height: 40px;
+  display: block;
+  transition: margin-top 0.2s, opacity 0.2s, width 0.2s, height 0.2s;
+}
+button:hover{
+  opacity: 0.9;
+  width: 152px;
+  height: 42px;
+  margin-top: -4px;
+}
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
