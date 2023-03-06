@@ -1,3 +1,3 @@
 function MoreInfo(){
-  window.location.href = "/View More/more.html";
+  window.location.href = "./View More/more.html";
 }
