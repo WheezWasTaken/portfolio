@@ -32,14 +32,13 @@ body{
    overflow:hidden;
 }
 p{
-  text-align: center;
   color: white;
   font-family: 'Poppins',sans-serif;
 }
 .Logo{
   font-size: 42px;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 5px;
 }
 .Wrapper{
   height: fit-content;
@@ -49,24 +48,40 @@ p{
   margin-left: auto;
   margin-right: auto;
 }
+img{
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: white;
+}
+.Template{
+  margin-top: 20px;
+  display: inline-block;
+}
+.img1{
+  width: 140px;
+}
 .p1 {
+  margin:0;
+  text-align: center;
   font-size: 22px;
-  margin:0;
+  margin-bottom: 65px;
 }
-.p2{
-  font-size: 35px;
+.p2 {
   margin:0;
+  text-align: center;
+  font-size: 22px;
 }
-.p3{
-  font-size: 20px;
+.p3 {
   margin:0;
+  text-align: center;
+  font-size: 15px;
 }
-.p4{
-  font-size: 14px;
-  margin:0;
-  margin-top: 5px;
-}
-.blue-gradient{
+.red-gradient{
   background: -webkit-linear-gradient(#f54eef, #b524ef);
   background-clip: initial;
   -webkit-background-clip: text;
@@ -108,19 +123,6 @@ p{
 .social-icon{
   height: 28px;
   width: 28px;
-}
-img{
-  margin-bottom: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid;
-  border-radius: 50%;
-  border-width: 2px;
-  border-color: white;
-}
-.img1{
-  width: 140px;
 }
 button{
   margin-left: auto;
